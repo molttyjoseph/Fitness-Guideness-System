@@ -1,13 +1,13 @@
-#  Fitness Guidance System
+# Fitness Guidance System
 
 Group Members:
-1-Moltty Joseph
-2-Sreedevida Biju
+* Moltty Joseph
+* Sreedevida Biju
 
 A Java-based Fitness Guidance System with a Swing GUI, BMI calculation, and SQLite database integration using JDBC.  
 This application allows users to enter personal fitness details, calculate BMI, receive fitness guidance, and store records persistently.
 
-# Features:
+## Features:
 - User-friendly Swing GUI
 - BMI Calculation based on height & weight
 - Automatic Fitness Guidance
@@ -17,7 +17,7 @@ This application allows users to enter personal fitness details, calculate BMI, 
 - Delete user records
 - Auto-creates database & tables
   
-##  Technologies Used:
+## Technologies Used:
 
 - Java (JDK 8+)
 - Java Swing (GUI)
@@ -25,27 +25,14 @@ This application allows users to enter personal fitness details, calculate BMI, 
 - JDBC (sqlite-jdbc driver)
 - VS Code / NetBeans
 
-## Project Structure:
-
-FitnessGUI/
-│
-├── src/
-│   └── FitnessGUI.java
-│
-├── lib/
-│   └── sqlite-jdbc-3.51.2.0.jar
-│
-├── fitness.db
-└── README.md
-
 ## How to Run (VS Code – Windows):
 
-1- Install Requirements
+### 1- Install Requirements
 - Java JDK (8 or above)
 - VS Code
 - SQLite JDBC Driver
 
-2️- Compile the Program
+### 2️- Compile the Program
 Open Command Prompt and navigate to the src folder:
 
 cd C:\Users\_molttyyy\Desktop\FitnessGUI\src
@@ -62,25 +49,25 @@ java -cp ".;..\lib\sqlite-jdbc-3.51.2.0.jar" FitnessGUI
 
 BMI = weight (kg) / (height × height)
 
-BMI Categories:
+### BMI Categories:
 - < 18.5 → Underweight  
 - 18.5 – 24.9 → Normal  
 - 25 – 29.9 → Overweight  
 - ≥ 30 → Obese  
 
-##  GUI Details:
+## GUI Details:
 
-Input Fields:
+### Input Fields:
 - Name
 - Height (meters)
 - Weight (kg)
 - Age
 
-Buttons:
+### Buttons:
 - Calculate & Save
 - View Users
 
-Output area shows:
+### Output area shows:
 - BMI value
 - Fitness guidance
 - Stored records
